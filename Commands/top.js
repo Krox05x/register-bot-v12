@@ -1,10 +1,9 @@
-const { MessageEmbed } = require('discord.js');
+const { MessageEmbed } = require('discord.js'); ttps //discord.gg/DepjtQFXmF 
 const qdb = require("quick.db");
 const rdb = new qdb.table("teyitler");
-const kdb = new qdb.table("kullanici");
+const kdb = new qdb.table("kullanici"); @ Regiter Hammer
 const ayar = require("../settings.json");
 module.exports.execute = async (client, message, args) => {
-
     let embed = new MessageEmbed().setTitle(message.member.displayName, message.author.avatarURL({dynamic: true})).setFooter(message.guild.name).setThumbnail(message.guild.iconURL({dynamic: true})).setColor("RANDOM").setTimestamp();
     let teyitData = rdb.get("reg") || {};
     let data = Object.keys(teyitData);
@@ -17,4 +16,6 @@ module.exports.configuration = {
     aliases: ["top-teyit", "top30", "top-30"],
     usage: "top",
     description: "Sunucuda en çok teyit edenleri sıralar"
-};
+};ARDA 🟃#7400
+🟃'Yasin#8796
+🟃'𝙨𝙝𝙖𝙬𝙩𝙮#0001
